@@ -1,3 +1,10 @@
+:root {
+  --base: #ffc600;
+  --spacing: 0px;
+  --blur: 0px;
+  --brightness: 1;
+}
+
 body {
   font-size: 10px;
   padding: 0;
@@ -28,4 +35,10 @@ body {
 .title {
   font-size: 2rem;
   width: 100%;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur)) brightness(var(--brightness));
 }
