@@ -5,6 +5,10 @@
   --brightness: 1;
   --contrast: 1;
   --sepia: 0%;
+  --grayscale: 0%;
+  --opacity: 100%;
+  --hueRotate: 0deg;
+  --invert: 0%;
 }
 
 body {
@@ -52,4 +56,8 @@ img {
     brightness(var(--brightness))
     contrast(var(--contrast))
     sepia(var(--sepia))
+    grayscale(var(--grayscale))
+    opacity(var(--opacity))
+    hue-rotate(var(--hueRotate))
+    invert(var(--invert))
 }
