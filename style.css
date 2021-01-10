@@ -3,6 +3,7 @@
   --spacing: 0px;
   --blur: 0px;
   --brightness: 1;
+  --contrast: 1;
 }
 
 body {
@@ -45,5 +46,5 @@ input {
 img {
   padding: var(--spacing);
   background: var(--base);
-  filter: blur(var(--blur)) brightness(var(--brightness));
+  filter: blur(var(--blur)) brightness(var(--brightness)) contrast(var(--contrast));
 }
