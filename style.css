@@ -19,8 +19,12 @@ body {
 
 .left-menu {
   display: flex;
-  width: 20vh ;
-  font-size: 1.5rem;
+  width: 30vh ;
+  font-size: 1.2rem;
+}
+
+input {
+  width: 150px;
 }
 
 .content {
@@ -28,13 +32,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid;
   width: 100%;
 }
 
-.title {
-  font-size: 2rem;
+.filter-element {
   width: 100%;
+  border: solid 1px;
+  padding: 5px;
+  text-align: right;
 }
 
 img {
