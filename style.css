@@ -24,11 +24,16 @@ body {
 }
 
 .left-menu {
-  display: flex;
-  width: 30vh ;
+  width: 30vh;
   font-size: 1.2rem;
   border: 1px solid;
   border-radius: 10px;
+  padding: 5px;
+  text-align: right;
+}
+
+.filter-item {
+  width: 100%;
 }
 
 input {
@@ -43,13 +48,9 @@ input {
   width: 100%;
 }
 
-.filter-element {
-  width: 100%;
-  padding: 5px;
-  text-align: right;
-}
-
 img {
+  height: 60vh;
+  width: 100vh;
   padding: var(--spacing);
   background: var(--base);
   filter:
@@ -61,4 +62,10 @@ img {
     opacity(var(--opacity))
     hue-rotate(var(--hueRotate))
     invert(var(--invert))
+}
+
+@media all and (max-width: 1366px) {
+  .left-menu {
+    width: 50vh;
+  }
 }
