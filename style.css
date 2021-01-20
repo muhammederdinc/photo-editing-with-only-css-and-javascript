@@ -24,20 +24,20 @@ body {
 }
 
 .left-menu {
-  width: 30vh;
+  width: 15%;
   font-size: 1.2rem;
   border: 1px solid;
   border-radius: 10px;
-  padding: 5px;
-  text-align: right;
+  padding: 5px 15px 5px 10px;
 }
 
 .filter-item {
   width: 100%;
+  padding: 4px 0 4px 0;
 }
 
 input {
-  width: 150px;
+  width: 100%;
 }
 
 .content {
@@ -49,8 +49,8 @@ input {
 }
 
 img {
-  height: 60vh;
-  width: 100vh;
+  height: 30vw;
+  width: 60%;
   padding: var(--spacing);
   background: var(--base);
   filter:
@@ -64,8 +64,8 @@ img {
     invert(var(--invert))
 }
 
-@media all and (max-width: 1366px) {
+@media all and (max-width: 800px) {
   .left-menu {
-    width: 50vh;
+    width: 30%;
   }
 }
